@@ -1,0 +1,39 @@
+#main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+body{
+  background-color: coral;
+}
+.music{
+  background-color:aquamarine
+}
+
+h1{
+  text-align: center;
+}
+#main{
+  padding-top: 20px;
+}
+.music {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px black;
+  border-radius: 20px;
+  transition: all 1.5s ease;
+}
+.img-photo {
+  height: 200px;
+}
+.music:hover {
+  transform: scale(1.05);
+}
+#searchButton{
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+}
