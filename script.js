@@ -123,6 +123,13 @@ const music = [
         "imageLink": "https://www.koimoi.com/wp-content/new-galleries/2022/01/pushpa-to-cross-250-crore-mark-today-001.jpg",
         "link": "https://od.lk/s/MTJfMjE2ODY0NDBf/Eyy%20Bidda%20Idhi%20Naa%20Adaa.mp3",
         "year": "2021"
+    },
+    {
+        "title": "Pushpa",
+        "artist": "Allu Arjun",
+        "imageLink": "https://www.koimoi.com/wp-content/new-galleries/2022/01/pushpa-to-cross-250-crore-mark-today-001.jpg",
+        "link": "https://od.lk/s/MTJfMjE2ODY0NDBf/Eyy%20Bidda%20Idhi%20Naa%20Adaa.mp3",
+        "year": "2021"
     }
 ]
 
