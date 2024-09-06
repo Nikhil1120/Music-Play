@@ -128,10 +128,13 @@ const music = [
         "title": "Abc",
         "artist": "Allu Arjun",
         "imageLink": "https://www.koimoi.com/wp-content/new-galleries/2022/01/pushpa-to-cross-250-crore-mark-today-001.jpg",
+        "imageLink2": "https://i.pinimg.com/736x/e3/f3/4d/e3f34de992ae4267f272550a5935447f.jpg",
         "link": "https://od.lk/s/MTJfMjE2ODY0NDBf/Eyy%20Bidda%20Idhi%20Naa%20Adaa.mp3",
         "year": "2021"
     }
 ]
+
+
 
 const mainDiv = document.getElementById('main');
 const searchInput = document.getElementById('searchInput');
@@ -151,7 +154,7 @@ mainDiv.parentNode.appendChild(exitButton);
 // Function to display music data
 function displayData(data) {
     mainDiv.innerHTML = '';
-    data.forEach((ele) => {
+    data.map((ele) => {
         const musicDiv = document.createElement('div');
         musicDiv.classList.add('music');
         musicDiv.dataset.title = ele.title;

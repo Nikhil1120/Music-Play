@@ -3,17 +3,17 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-body{
+body {
   background-color: coral;
 }
-.music{
-  background-color:aquamarine
+.music {
+  background-color: aquamarine;
 }
 
-h1{
+h1 {
   text-align: center;
 }
-#main{
+#main {
   padding-top: 20px;
 }
 .music {
@@ -32,8 +32,28 @@ h1{
 .music:hover {
   transform: scale(1.05);
 }
-#searchButton{
+#searchButton {
   background-color: blue;
   color: white;
   font-size: 15px;
 }
+
+
+
+@media (max-width: 885px) {
+  #main {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #main {
+    grid-template-columns: 1fr !important;
+  }
+  .music {
+    padding: 10px !important;
+  }
+}
+
+
+
